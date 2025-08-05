@@ -1,7 +1,8 @@
 services:
   web:
-    build: .
-    image: notes-app:latest
+    # build: .
+    # image: notes-app:latest
+    image: "epraveenkumar/notes-app"
     ports:
       - "8000:8000"
 
