@@ -4,3 +4,6 @@ services:
     image: notes-app:latest
     ports:
       - "8000:8000"
+
+# This will first build the code in the present dir
+# And add the image tag to it
